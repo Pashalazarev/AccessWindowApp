@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Welcome,"; ObjectID = "E5z-YK-B6M"; */
+"E5z-YK-B6M.text" = "Welcome,";
+
+/* Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "WSO-Wr-1EM"; */
+"WSO-Wr-1EM.normalTitle" = "Forgot password?";
+
+/* Class = "UITextField"; placeholder = "User name"; ObjectID = "d8P-v6-Xle"; */
+"d8P-v6-Xle.placeholder" = "User name";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "eNb-aM-ur6"; */
+"eNb-aM-ur6.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Forgot user name?"; ObjectID = "kz0-rN-w9u"; */
+"kz0-rN-w9u.normalTitle" = "Forgot user name?";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "qyn-4f-a0C"; */
+"qyn-4f-a0C.normalTitle" = "Log out";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "szP-Mg-ewI"; */
+"szP-Mg-ewI.normalTitle" = "Button";
