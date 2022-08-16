@@ -9,17 +9,13 @@ import UIKit
 
 class GreetingViewController: UIViewController {
 
-    @IBOutlet var welcomeLabel: UILabel!
+
+    @IBOutlet var welcomeLabelTF: UILabel!
     
+    var welcomeLabel: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
+        welcomeLabelTF.text = "Welcome" + welcomeLabel
     }
-    @IBAction func logOutButtonPressed() {
-        dismiss(animated: true)
-    }
-
-
 }
