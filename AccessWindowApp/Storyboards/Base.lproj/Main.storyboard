@@ -30,11 +30,13 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szP-Mg-ewI">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szP-Mg-ewI">
                                         <rect key="frame" x="0.0" y="138" width="377" height="42"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Log in"/>
+                                        <state key="normal" title="Log in">
+                                            <color key="titleColor" systemColor="systemBlueColor"/>
+                                        </state>
                                         <connections>
                                             <action selector="logInButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="yEl-Zy-YN5"/>
                                             <segue destination="OIW-ah-sW5" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="g45-EN-pEO"/>
@@ -125,11 +127,13 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyn-4f-a0C">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyn-4f-a0C">
                                 <rect key="frame" x="152" y="630.5" width="110" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Log out"/>
+                                <state key="normal" title="Log out">
+                                    <color key="titleColor" systemColor="systemBlueColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="05b-QH-BFD" kind="unwind" unwindAction="unwindSegue:" id="aIr-8f-fTm"/>
                                 </connections>
