@@ -17,15 +17,19 @@ import UIKit
     private let password = "Swiftbook"
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-    
-    
+        super.viewDidLoad()    
     }
     // MARK: - OvverrideFunctions
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let greetingVC = segue.destination as? GreetingViewController else {return}
-        greetingVC.welcomeLabel = UserNameTF.text
+        guard let tabBar = segue.destination as? UITabBarController else { return }
+        guard let viewControllers = tabBar.viewControllers else { return }
+        
+        for viewController in viewControllers {
+            if let greetingVC = viewController as? GreetingViewController {
+                greetingVC.welcomeLabel = login
+            } 
+        }
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -55,10 +59,6 @@ import UIKit
          UserNameTF.text = ""
      }
 }
-
-    
-        
-
 
 
 // MARK: - UIAlertController
