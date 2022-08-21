@@ -17,4 +17,7 @@ class TransitionalViewController: UIViewController {
         super.viewDidLoad()
         GreetingItem.title = userTitleText
     }
+    @IBAction func unwindSegue(_ segue: UIStoryboardSegue) {
+        
+    }
 }

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA7F812028AD1E8A008B0BE9 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F811F28AD1E8A008B0BE9 /* UserInfoViewController.swift */; };
-		FA7F812228AD1FEF008B0BE9 /* TransitionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F812128AD1FEF008B0BE9 /* TransitionalViewController.swift */; };
 		FA8B01D428A6E5D20092C06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B01D328A6E5D20092C06D /* AppDelegate.swift */; };
 		FA8B01D628A6E5D20092C06D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B01D528A6E5D20092C06D /* SceneDelegate.swift */; };
 		FA8B01D828A6E5D20092C06D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B01D728A6E5D20092C06D /* LogInViewController.swift */; };
@@ -17,11 +15,12 @@
 		FA8B01E028A6E5D40092C06D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8B01DE28A6E5D40092C06D /* LaunchScreen.storyboard */; };
 		FA8B01EA28A936520092C06D /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B01E928A936520092C06D /* GreetingViewController.swift */; };
 		FA8E427628AD3F9500080F14 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E427528AD3F9500080F14 /* User.swift */; };
+		FA94B06028AFC55400DEF15B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94B05F28AFC55400DEF15B /* ImageViewController.swift */; };
+		FA94B06228AFC56300DEF15B /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94B06128AFC56300DEF15B /* InformationViewController.swift */; };
+		FA94B06428AFC63700DEF15B /* HeadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94B06328AFC63700DEF15B /* HeadingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA7F811F28AD1E8A008B0BE9 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
-		FA7F812128AD1FEF008B0BE9 /* TransitionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionalViewController.swift; sourceTree = "<group>"; };
 		FA8B01D028A6E5D20092C06D /* AccessWindowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessWindowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8B01D328A6E5D20092C06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA8B01D528A6E5D20092C06D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +31,9 @@
 		FA8B01E128A6E5D40092C06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8B01E928A936520092C06D /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 		FA8E427528AD3F9500080F14 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA94B05F28AFC55400DEF15B /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		FA94B06128AFC56300DEF15B /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		FA94B06328AFC63700DEF15B /* HeadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,9 @@
 			children = (
 				FA8B01D728A6E5D20092C06D /* LogInViewController.swift */,
 				FA8B01E928A936520092C06D /* GreetingViewController.swift */,
-				FA7F812128AD1FEF008B0BE9 /* TransitionalViewController.swift */,
-				FA7F811F28AD1E8A008B0BE9 /* UserInfoViewController.swift */,
+				FA94B06328AFC63700DEF15B /* HeadingViewController.swift */,
+				FA94B06128AFC56300DEF15B /* InformationViewController.swift */,
+				FA94B05F28AFC55400DEF15B /* ImageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -184,10 +187,11 @@
 			files = (
 				FA8B01D828A6E5D20092C06D /* LogInViewController.swift in Sources */,
 				FA8B01D428A6E5D20092C06D /* AppDelegate.swift in Sources */,
+				FA94B06228AFC56300DEF15B /* InformationViewController.swift in Sources */,
 				FA8E427628AD3F9500080F14 /* User.swift in Sources */,
-				FA7F812228AD1FEF008B0BE9 /* TransitionalViewController.swift in Sources */,
-				FA7F812028AD1E8A008B0BE9 /* UserInfoViewController.swift in Sources */,
 				FA8B01D628A6E5D20092C06D /* SceneDelegate.swift in Sources */,
+				FA94B06428AFC63700DEF15B /* HeadingViewController.swift in Sources */,
+				FA94B06028AFC55400DEF15B /* ImageViewController.swift in Sources */,
 				FA8B01EA28A936520092C06D /* GreetingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +354,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LazarevPavel.AccessWindowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,6 +384,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LazarevPavel.AccessWindowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

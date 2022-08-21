@@ -12,10 +12,13 @@ class GreetingViewController: UIViewController {
 
     @IBOutlet var welcomeLabelTF: UILabel!
     
+
     var welcomeLabel = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         welcomeLabelTF.text = "Welcome, \(welcomeLabel)"
+    }
+    @IBAction func logOutButtonPressed() {
     }
 }
