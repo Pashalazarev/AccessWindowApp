@@ -18,11 +18,11 @@ class InformationViewController: UIViewController {
     var user: User!
     
     override func viewDidLoad() {
-        nameLabel.text = user.person.name
-        surnameLabel.text = user.person.surname
-        ageLabel.text = String(user.person.fullAge)
-        educationLabel.text = user.person.education
-        cityOfResidenceLabel.text = user.person.cityOfResidence
+        nameLabel.text = "Name: \(user.person.name)"
+        surnameLabel.text = "Surname: \(user.person.surname)"
+        ageLabel.text = "My age is: \(user.person.fullAge) years old"
+        educationLabel.text = "Education level is \(user.person.education)"
+        cityOfResidenceLabel.text = "I live in \(user.person.cityOfResidence)"
     }
     
 }

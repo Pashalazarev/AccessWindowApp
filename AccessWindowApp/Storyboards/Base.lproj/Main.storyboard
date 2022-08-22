@@ -196,9 +196,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="More information about, "/>
-                                <connections>
-                                    <segue destination="dCQ-gk-owv" kind="show" id="KWZ-eE-a1N"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👨" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKo-me-aYz">
                                 <rect key="frame" x="180" y="542.5" width="54" height="60"/>
@@ -220,7 +217,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gLd-iM-dLx">
-                        <barButtonItem key="leftBarButtonItem" title="Back" id="u27-av-Txn"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="KxQ-dX-6rI">
+                            <connections>
+                                <segue destination="dCQ-gk-owv" kind="show" id="C9I-Sv-48H"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="greetingDataButton" destination="O78-jm-gEg" id="WbF-9z-tPr"/>
