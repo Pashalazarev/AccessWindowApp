@@ -34,7 +34,7 @@ import UIKit
                  greetingVC.welcomeLabel = user.person.name
              } else if let navigationVC = viewController as? UINavigationController {
                  guard let headingVC = navigationVC.topViewController as? HeadingViewController else { return }
-                 headingVC.greetingButton = user.person.name
+                 headingVC.user = user
          }
      }
      }

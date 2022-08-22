@@ -12,13 +12,11 @@ class HeadingViewController: UIViewController {
     @IBOutlet var greetingDataButton: UIButton!
     
     var user: User!
-    var greetingButton = ""
-    
     
     // MARK: - ViewDidLoad func
     override func viewDidLoad() {
         super.viewDidLoad()
-        greetingDataButton.setTitle("More information about \(greetingButton)", for: .normal)
+        greetingDataButton.setTitle("More information about \(user.person.name)", for: .normal)
     }
     // MARK: - OvverrideFunctions
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
